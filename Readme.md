@@ -9,4 +9,4 @@ using [train.py](train.py), You will end up running something like `python train
 We provide the testing code.
 using [test.py](test.py), You will end up running something like `python test.py --dataset childFER --exp childFER 
 --num_channels 18 --num_channels_dae 64 --num_timesteps 4 --num_res_blocks 2 --nz 100 --z_emb_dim 256 --n_mlp 3 --ch_mult 1 2 2 2 4 --epoch_id 1000 
---image_size 256 --current_resolution 64 --attn_resolutions 16 --inference --datadir childFER`
+--image_size 256 --current_resolution 64 --attn_resolutions 16 --datadir childFER`
