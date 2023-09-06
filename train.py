@@ -44,8 +44,7 @@ def parse_args():
     # parser.add_argument('--measure_time', action='store_true', default=False,
     #                     help='whether or not measure time')
     parser.add_argument('--epoch_id', type=int, default=900)
-    parser.add_argument('--num_channels', type=int, default=18,
-                        help='channel of wavelet subbands')
+    parser.add_argument('--num_channels', type=int, default=18)
     parser.add_argument('--centered', action='store_false', default=True,
                         help='-1,1 scale')
     parser.add_argument('--use_geometric', action='store_true', default=False)
